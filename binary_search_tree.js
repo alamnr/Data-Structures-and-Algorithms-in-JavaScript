@@ -137,5 +137,6 @@ console.log(bst.findMax());
 console.log(bst.isPresent(4));
 bst.remove(4);
 console.log(bst.isPresent(4));
-
+bst.remove(7);
+console.log(bst.findMax());
 
